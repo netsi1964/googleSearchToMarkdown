@@ -1,0 +1,11 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "Will do a Google Search and return Markdown with part of result",
+  "main": "google.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sten Hougaard",
+  "license": "ISC"
+}
