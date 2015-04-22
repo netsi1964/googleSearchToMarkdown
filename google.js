@@ -3,7 +3,7 @@ var merge = require('merge');
 
 var OSXChrome42 = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36";
 var IOSIPad2Safari = "Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53";
-
+var IOSIPhone4Safari = "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5";
 google.requestOptions = {
 	headers: {
 		'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -12,7 +12,7 @@ google.requestOptions = {
 		'Cache-Control': 'max-age=0',
 		'Connection': 'keep-alive',
 		'DNT': 1,
-		 "User-Agent": OSXChrome42
+		"User-Agent": OSXChrome42
 	}
 }
 
