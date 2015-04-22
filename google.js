@@ -11,8 +11,8 @@ google.requestOptions = {
 		'Accept-Language': 'en;q=0.5',
 		'Cache-Control': 'max-age=0',
 		'Connection': 'keep-alive',
-		'DNT': 1
-		// "User-Agent": OSXChrome42
+		'DNT': 1,
+		 "User-Agent": OSXChrome42
 	}
 }
 
